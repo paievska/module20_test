@@ -10,8 +10,8 @@ class Module20TestApplicationTests {
 
 	@Test
 	void contextLoads() {
-		String expectedTitle = "Title";
-		String content = "Content";
+		String expectedTitle = "Title note";
+		String content = "Content note";
 
 		Note note = new Note(expectedTitle, content);
 
